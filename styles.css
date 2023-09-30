@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for the header */
+header {
+    background-color: #f6c904;
+    color: rgb(244, 243, 240);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between 20px;
+    background-color: #dff062;
+    padding: 10px;
+}
+
+.content {
+    flex-basis: calc(33.33% - 40px); /* Adjusted width for three columns */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #94e2e2;
+    border: 5px solid #e4eaf3;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    box-sizing: border-box;
+    
+    
+    
+    /* Account for padding and border */
+}
+
+.content:hover {
+    transform: scale(1.02);
+}
+
+.content img {
+    width: 50%;
+    height:auto;
+    display: block;
+    margin: 0 ;
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+ a{
+    font-size: large;
+    color: #8b8d8d;
+ }
